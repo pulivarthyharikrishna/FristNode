@@ -1,0 +1,20 @@
+{
+  "NODE_ENV": "development",
+  "jwt": {
+    "secret": "mysecret",
+    "options": {
+      "expiresIn": 86400
+    }
+  },
+  "mongo": {
+    "host": "127.0.0.1",
+    "database": "mydb",
+    "username": "",
+    "password": "",
+    "port": 27107,
+    "url3": "?retryWrites=true&w=majority"
+  },
+
+  "port": 4050,
+  "baseUrl": "http://localhost:4050"
+}
